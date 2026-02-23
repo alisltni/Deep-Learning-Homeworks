@@ -30,14 +30,22 @@ Getting familiar with PyTorch framework and Google Colab as the development envi
 
 ---
 
-### HW2: Convolutional Neural Networks and Regularization
-**Topics:** CNN, CIFAR-10, Dropout, Regularization Techniques
+### HW2: Convolutional Neural Networks and Physics-Informed Learning  
+**Topics:** CNN, CIFAR-10, Dropout, Regularization Techniques, PINN, ODE-Constrained Learning  
 
-Implementation and training of a convolutional neural network on the CIFAR-10 dataset. Analysis of dropout regularization and its effects on model performance and overfitting prevention.
+This assignment explores supervised image classification and physics-informed neural network modeling through two distinct implementations.
 
-**Key Experiments:**
-- Training a CNN from scratch on CIFAR-10
-- Analyzing dropout impact on validation accuracy
+#### Notebook 1: CNN on CIFAR-10 with Dropout Regularization
+- Implementation of a CNN architecture from scratch  
+- Training on the CIFAR-10 dataset  
+- Analysis of dropout and its effect on validation performance  
+- Study of regularization and overfitting behavior  
+
+#### Notebook 2: Physics-Informed Neural Network for Coupled ODE System
+- Implementation of a PINN for a mass-spring dynamical system  
+- Embedding physical constraints directly into the loss function  
+- Solving coupled differential equations using neural networks  
+- Comparison with numerical ODE solver results  
 
 ---
 
